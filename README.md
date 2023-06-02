@@ -1,9 +1,10 @@
 # Style_transfer_using_CycleGAN - Computer Vision
 Multi-collection Style Transfer Using CycleGAN
 
-![alt text]([epoch8 outputs.PNG](https://github.com/kajolshah310/Style_transfer_using_CycleGAN/blob/main/epoch8%20outputs.PNG))
 ## Description
 This repository contains a Jupyter Notebook that demonstrates multi-collection style transfer using CycleGAN in computer vision. Style transfer involves generating a new image that combines the content from one image and the artistic style from another image or a collection of images. CycleGAN is a deep learning approach that utilizes generative and discriminative networks to achieve style transfer without paired training samples.
+
+![alt text](https://github.com/kajolshah310/Style_transfer_using_CycleGAN/blob/main/epoch8%20outputs.PNG)
 
 Style transfer is the process of redrawing or generating a new image that combines the content or scene from one image and the artistic style from a different image or a collection of images. Initially, the problem first stemmed from wanting to make an input image look as if it was drawn with the same style as in a painting from a famous artist. Manually transferring the image to a different style by interpreting another artist’s style/technique is something that would take a professional artist considerable time and effort, if they are even able to achieve adequate results.
 To automate the process, AI and computer vision techniques have been used to obtain promising results. As there are many practical applications for style transfer, such as quickly creating animations from real life scenes, there has been a lot of research and development into creatingmore accurate models that produce clear images and are pleasing to the eye. Unfortunately, many implementations of GANs that are able to obtain collective style transfer are only capable of generating images of one style. Therefore, multiple networks and models must be trained in order to achieve multiple models.
